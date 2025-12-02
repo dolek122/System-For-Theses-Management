@@ -1,0 +1,76 @@
+2025-12-02T17:37:08.095+01:00  INFO 26028 --- [main] com.example.theses.ThesesApplication     : Starting ThesesApplication using Java 23.0.1 with PID 26028 (C:\Users\Arek\Desktop\SystemPracaInż\backend-spring\target\classes started by Arek in C:\Users\Arek\Desktop\SystemPracaInż\backend-spring)
+2025-12-02T17:37:08.103+01:00 DEBUG 26028 --- [main] com.example.theses.ThesesApplication     : Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-12-02T17:37:08.104+01:00  INFO 26028 --- [main] com.example.theses.ThesesApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-12-02T17:37:08.807+01:00  INFO 26028 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-02T17:37:08.867+01:00  INFO 26028 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 5 JPA repository interfaces.
+2025-12-02T17:37:09.300+01:00  INFO 26028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-12-02T17:37:09.314+01:00  INFO 26028 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-02T17:37:09.314+01:00  INFO 26028 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-12-02T17:37:09.365+01:00  INFO 26028 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-02T17:37:09.365+01:00  INFO 26028 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1215 ms
+2025-12-02T17:37:09.497+01:00  INFO 26028 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-02T17:37:09.563+01:00  INFO 26028 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-12-02T17:37:09.603+01:00  INFO 26028 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-02T17:37:09.892+01:00  INFO 26028 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-02T17:37:09.921+01:00  INFO 26028 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-02T17:37:10.109+01:00  INFO 26028 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e364f1f
+2025-12-02T17:37:10.110+01:00  INFO 26028 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-02T17:37:10.175+01:00  WARN 26028 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-02T17:37:11.005+01:00  INFO 26028 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-02T17:37:11.120+01:00  INFO 26028 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T17:37:11.645+01:00  WARN 26028 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-02T17:37:11.994+01:00  INFO 26028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-12-02T17:37:11.995+01:00  INFO 26028 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2025-12-02T17:37:11.996+01:00  INFO 26028 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@221961f2]]
+2025-12-02T17:37:11.996+01:00  INFO 26028 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2025-12-02T17:37:12.002+01:00  INFO 26028 --- [main] com.example.theses.ThesesApplication     : Started ThesesApplication in 4.305 seconds (process running for 5.025)
+2025-12-02T17:37:16.394+01:00  INFO 26028 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-02T17:37:16.395+01:00  INFO 26028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-02T17:37:16.396+01:00  INFO 26028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-12-02T17:37:41.307+01:00  INFO 26028 --- [http-nio-8080-exec-3] c.e.theses.controller.AuthController     : Login attempt: test1@wp.pl
+2025-12-02T17:37:41.318+01:00  INFO 26028 --- [http-nio-8080-exec-3] c.e.theses.controller.AuthController     : Login successful: 27781899-3a49-4cf9-beae-f854e1c4ab99
+2025-12-02T17:38:03.007+01:00  INFO 26028 --- [http-nio-8080-exec-8] c.e.theses.controller.AuthController     : Login attempt: test3@wp.pl
+2025-12-02T17:38:03.009+01:00  INFO 26028 --- [http-nio-8080-exec-8] c.e.theses.controller.AuthController     : Login successful: 574f3524-26d1-4300-9bed-e429217caf11
+2025-12-02T17:38:11.978+01:00  INFO 26028 --- [MessageBroker-4] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 4 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(4)-CONNECTED(4)-DISCONNECT(3)], stompBrokerRelay[null], inboundChannel[pool size = 24, active threads = 0, queued tasks = 0, completed tasks = 54], outboundChannel[pool size = 12, active threads = 0, queued tasks = 0, completed tasks = 12], sockJsScheduler[pool size = 12, active threads = 1, queued tasks = 1, completed tasks = 12]
+2025-12-02T17:38:17.625+01:00  INFO 26028 --- [http-nio-8080-exec-1] c.e.theses.controller.AuthController     : Login attempt: test2@wp.pl
+2025-12-02T17:38:17.629+01:00  INFO 26028 --- [http-nio-8080-exec-1] c.e.theses.controller.AuthController     : Login successful: c9ee8230-153d-470c-b150-b8e4e558d944
+2025-12-02T17:38:55.961+01:00  INFO 26028 --- [http-nio-8080-exec-2] c.e.theses.controller.AuthController     : Login attempt: test@wp.pl
+2025-12-02T17:38:55.965+01:00  INFO 26028 --- [http-nio-8080-exec-2] c.e.theses.controller.AuthController     : Login successful: 79031849-7709-4dc9-bc48-3c0ac937fa50
+2025-12-02T17:39:22.932+01:00  INFO 26028 --- [http-nio-8080-exec-2] c.e.theses.controller.AuthController     : Login attempt: test1@wp.pl
+2025-12-02T17:39:22.935+01:00  INFO 26028 --- [http-nio-8080-exec-2] c.e.theses.controller.AuthController     : Login successful: 27781899-3a49-4cf9-beae-f854e1c4ab99
+2025-12-02T17:44:43.424+01:00  INFO 26028 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2025-12-02T17:44:43.424+01:00  INFO 26028 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@221961f2]]
+2025-12-02T17:44:43.425+01:00  INFO 26028 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2025-12-02T17:44:43.445+01:00  INFO 26028 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T17:44:43.448+01:00  INFO 26028 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-02T17:44:43.450+01:00  INFO 26028 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-02T17:44:46.929+01:00  INFO 16948 --- [main] com.example.theses.ThesesApplication     : Starting ThesesApplication using Java 23.0.1 with PID 16948 (C:\Users\Arek\Desktop\SystemPracaInż\backend-spring\target\classes started by Arek in C:\Users\Arek\Desktop\SystemPracaInż\backend-spring)
+2025-12-02T17:44:46.930+01:00 DEBUG 16948 --- [main] com.example.theses.ThesesApplication     : Running with Spring Boot v3.3.4, Spring v6.1.13
+2025-12-02T17:44:46.931+01:00  INFO 16948 --- [main] com.example.theses.ThesesApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-12-02T17:44:47.828+01:00  INFO 16948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-02T17:44:47.889+01:00  INFO 16948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 5 JPA repository interfaces.
+2025-12-02T17:44:48.302+01:00  INFO 16948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-12-02T17:44:48.314+01:00  INFO 16948 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-02T17:44:48.314+01:00  INFO 16948 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-12-02T17:44:48.359+01:00  INFO 16948 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-02T17:44:48.359+01:00  INFO 16948 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1376 ms
+2025-12-02T17:44:48.486+01:00  INFO 16948 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-02T17:44:48.539+01:00  INFO 16948 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-12-02T17:44:48.575+01:00  INFO 16948 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-02T17:44:48.835+01:00  INFO 16948 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-02T17:44:48.858+01:00  INFO 16948 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-02T17:44:49.009+01:00  INFO 16948 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@553ce348
+2025-12-02T17:44:49.010+01:00  INFO 16948 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-02T17:44:49.042+01:00  WARN 16948 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-02T17:44:49.970+01:00  INFO 16948 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-02T17:44:50.056+01:00  INFO 16948 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T17:44:50.580+01:00  WARN 16948 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-02T17:44:50.923+01:00  INFO 16948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-12-02T17:44:50.926+01:00  INFO 16948 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2025-12-02T17:44:50.926+01:00  INFO 16948 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@f0deba2]]
+2025-12-02T17:44:50.926+01:00  INFO 16948 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2025-12-02T17:44:50.933+01:00  INFO 16948 --- [main] com.example.theses.ThesesApplication     : Started ThesesApplication in 4.512 seconds (process running for 5.266)
+2025-12-02T17:44:50.985+01:00  INFO 16948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-02T17:44:50.985+01:00  INFO 16948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-02T17:44:50.986+01:00  INFO 16948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-12-02T17:45:50.910+01:00  INFO 16948 --- [MessageBroker-6] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 3 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(3)-CONNECTED(3)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 18, active threads = 0, queued tasks = 0, completed tasks = 18], outboundChannel[pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 4], sockJsScheduler[pool size = 12, active threads = 1, queued tasks = 3, completed tasks = 15]
