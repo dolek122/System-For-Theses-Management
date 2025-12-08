@@ -19,4 +19,5 @@ Silnik napędzający system zarządzania pracami dyplomowymi. Zbudowany na solid
 3.  **Gotowe!** API działa pod `http://localhost:8080`.
 
 👉 **Dokumentacja API**: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+👉 **Frontend**: https://github.com/dolek122/theses-management
 
