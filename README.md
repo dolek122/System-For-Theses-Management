@@ -20,5 +20,3 @@ Silnik napędzający system zarządzania pracami dyplomowymi. Zbudowany na solid
 
 👉 **Dokumentacja API**: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
----
-*Created for efficient thesis management.*
