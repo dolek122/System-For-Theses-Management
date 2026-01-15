@@ -11,15 +11,16 @@ Backend realizuje logikę serwerową systemu zarządzania procesem dyplomowania:
 
 ## Szybki Start
 
-1.  **Baza Danych**: Upewnij się, że masz PostgreSQL na porcie `5432` (baza `postgres`, user `postgres`).
+1.  **Baza Danych**: PostgreSQL na porcie `5432` (baza `postgres`, user `postgres`).
 2.  **Uruchom**:
     ```bash
     mvn spring-boot:run
     ```
-3.  **Gotowe!** API działa pod `http://localhost:8080`.
+3.  **API** `http://localhost:8080`.
 
  **Dokumentacja API**: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html).
  **Frontend**: https://github.com/dolek122/theses-management
+
 
 
 
